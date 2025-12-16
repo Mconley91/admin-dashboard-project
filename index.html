@@ -9,29 +9,29 @@
 <body>
     <div class="navbar">
         <div class="dashboard-title-container">
-            <img class="logo-icon" alt="logo-icon"></a>
+            <img class="logo-icon" src="./SVG/code-brackets.svg" alt="logo-icon"></a>
             <h2>Dashboard</h2>
         </div>
         
         <div class="nav-main-content-container">
             <div class="navlink-container">
-                <img class="profile-icon" alt="profile-icon"></a>
-                <p>Profile<p>
+                <img class="profile-icon" src="./SVG/account-star.svg" alt="profile-icon"></a>
+                <p >Profile<p>
             </div>
             <div class="navlink-container">
-                <img class="messages-icon" alt="messages-icon"></a>
+                <img class="messages-icon" src="./SVG/email-newsletter.svg" alt="messages-icon"></a>
                 <p>Messages<p>
             </div>
             <div class="navlink-container">
-                <img class="history-icon" alt="history-icon"></a>
+                <img class="history-icon" src="./SVG/clipboard-text-clock.svg" alt="history-icon"></a>
                 <p>History<p>
             </div>
             <div class="navlink-container">
-                <img class="tasks-icon" alt="tasks-icon"></a>
+                <img class="tasks-icon" src="./SVG/check-underline.svg" alt="tasks-icon"></a>
                 <p>Tasks<p>
             </div>
             <div class="navlink-container">
-                <img class="communities-icon" alt="communities-icon"></a>
+                <img class="communities-icon" src="./SVG/account-group.svg" alt="communities-icon"></a>
                 <p>Communities<p>
             </div>
             
@@ -39,15 +39,15 @@
         
         <div class="nav-extra-content-container">
             <div class="navlink-container">
-                <img class="settings-icon" alt="settings-icon"></a>
+                <img class="settings-icon" src="./SVG/cog.svg" alt="settings-icon"></a>
                 <p>Settings<p>
             </div>
             <div class="navlink-container">
-                <img class="support-icon" alt="support-icon"></a>
+                <img class="support-icon" src="./SVG/help-rhombus.svg" alt="support-icon"></a>
                 <p>Support<p>
             </div>
             <div class="navlink-container">
-                <img class="privacy-icon" alt="privacy-icon"></a>
+                <img class="privacy-icon" src="./SVG/incognito-circle.svg" alt="privacy-icon"></a>
                 <p>Privacy<p>
             </div>
         </div>
@@ -55,18 +55,22 @@
 
     <div class="header">
         <div class="searchbar-container">
-            <img class="search-icon" alt="search-icon">
-            <input type="search" class="searchbar" name="search">
+            <label for="search">
+                <img class="search-icon" src="./SVG/card-search-outline.svg" alt="search-icon">
+            </label>
+            <input type="search" class="searchbar" name="search" id="search">
         </div>
         <div class="user-info-container">
-            <img class="notification-icon" alt="notification-icon">
-            <a href=""><img class="user-picture" alt="user-pfp"></a>
-            <p class="user-name">Morgan Oakley</p>
+            <img class="notification-icon" src="./SVG/bell-circle-outline.svg" alt="notification-icon">
+            <a href=""><img class="user-picture" src="./SVG/chaos_star.JPG" alt="user-pfp"></a>
+            <p class="user-name">Matt Conley</p>
         </div>
         <div class="page-title-container">
-            <img class="title-image" alt="title image">
+            <div class="title-image-container">
+                <img class="title-image" src="./SVG/chaos_star.JPG" alt="title image">
+            </div>
             <p class="title-greeting">Hi there,</p>
-            <h3 class="title-user-name">Morgan Oakley (@Morgan)</h3>
+            <h3 class="title-user-name">Matt Conley (@Mconley91)</h3>
         </div>
         <div class="header-actions-container">
             <button>New</button>
@@ -77,101 +81,117 @@
 
     <div class="main-content">
         <div class="project-container">
-            <h4>Your Projects</h4>
-            <div class="project-1">
-                <p class="project-title">Super Cool Project</p>
-                <p class="project-description">placeholder text placeholder text placeholder text placeholder text </p>
+            <h4 class="content-title">Your Projects</h4>
+            <div class="project">
+                <p class="project-title">Project A</p>
+                <p class="project-description">placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text 
+                    placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text 
+                    placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text 
+                </p>
                 <div class="share-icons-container">
-                    <img class="favorite-icon" alt="favorite icon">
-                    <img class="inspect-icon" alt="inspect icon">
-                    <img class="share-icon" alt="share-icon">
+                    <img class="favorite-icon" src="./SVG/star-outline.svg" alt="favorite icon">
+                    <img class="inspect-icon" src="./SVG/eye-settings-outline.svg" alt="inspect icon">
+                    <img class="share-icon" src="./SVG/share-variant-outline.svg" alt="share-icon">
                 </div>
             </div>
-            <div class="project-2">
-                <p class="project-title">Less Cool Project</p>
-                <p class="project-description">placeholder text placeholder text placeholder text placeholder text </p>
+            <div class="project">
+                <p class="project-title">Project B</p>
+                <p class="project-description">placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
                 <div class="share-icons-container">
-                    <img class="favorite-icon" alt="favorite icon">
-                    <img class="inspect-icon" alt="inspect icon">
-                    <img class="share-icon" alt="share-icon">
+                    <img class="favorite-icon" src="./SVG/star-outline.svg" alt="favorite icon">
+                    <img class="inspect-icon" src="./SVG/eye-settings-outline.svg" alt="inspect icon">
+                    <img class="share-icon" src="./SVG/share-variant-outline.svg" alt="share-icon">
                 </div>
             </div>
-            <div class="project-3">
-                <p class="project-title">Impossible App</p>
-                <p class="project-description">placeholder text placeholder text placeholder text placeholder text </p>
+            <div class="project">
+                <p class="project-title">Project C</p>
+                <p class="project-description">placeholder text placeholder text placeholder text placeholder text placeholder text </p>
                 <div class="share-icons-container">
-                    <img class="favorite-icon" alt="favorite icon">
-                    <img class="inspect-icon" alt="inspect icon">
-                    <img class="share-icon" alt="share-icon">
+                    <img class="favorite-icon" src="./SVG/star-outline.svg" alt="favorite icon">
+                    <img class="inspect-icon" src="./SVG/eye-settings-outline.svg" alt="inspect icon">
+                    <img class="share-icon" src="./SVG/share-variant-outline.svg" alt="share-icon">
                 </div>
             </div>
-            <div class="project-4">
-                <p class="project-title">Easy Peasy App</p>
-                <p class="project-description">placeholder text placeholder text placeholder text placeholder text </p>
+            <div class="project">
+                <p class="project-title">Project D</p>
+                <p class="project-description">placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text 
+                    placeholder text placeholder text placeholder text placeholder text 
+                </p>
                 <div class="share-icons-container">
-                    <img class="favorite-icon" alt="favorite icon">
-                    <img class="inspect-icon" alt="inspect icon">
-                    <img class="share-icon" alt="share-icon">
+                    <img class="favorite-icon" src="./SVG/star-outline.svg" alt="favorite icon">
+                    <img class="inspect-icon" src="./SVG/eye-settings-outline.svg" alt="inspect icon">
+                    <img class="share-icon" src="./SVG/share-variant-outline.svg" alt="share-icon">
                 </div>
             </div>
-            <div class="project-5">
-                <p class="project-title">Ad Blocker</p>
+            <div class="project">
+                <p class="project-title">Project E</p>
                 <p class="project-description">placeholder text placeholder text placeholder text placeholder text </p>
                 <div class="share-icons-container">
-                    <img class="favorite-icon" alt="favorite icon">
-                    <img class="inspect-icon" alt="inspect icon">
-                    <img class="share-icon" alt="share-icon">
+                    <img class="favorite-icon" src="./SVG/star-outline.svg" alt="favorite icon">
+                    <img class="inspect-icon" src="./SVG/eye-settings-outline.svg" alt="inspect icon">
+                    <img class="share-icon" src="./SVG/share-variant-outline.svg" alt="share-icon">
                 </div>
             </div>
-            <div class="project-6">
-                <p class="project-title">Money Maker</p>
+            <div class="project">
+                <p class="project-title">Project F</p>
                 <p class="project-description">placeholder text placeholder text placeholder text placeholder text </p>
                 <div class="share-icons-container">
-                    <img class="favorite-icon" alt="favorite icon">
-                    <img class="inspect-icon" alt="inspect icon">
-                    <img class="share-icon" alt="share-icon">
+                    <img class="favorite-icon" src="./SVG/star-outline.svg" alt="favorite icon">
+                    <img class="inspect-icon" src="./SVG/eye-settings-outline.svg" alt="inspect icon">
+                    <img class="share-icon" src="./SVG/share-variant-outline.svg" alt="share-icon">
                 </div>
             </div>
         </div>
-        <div class="announcements-container">
-            <h4>Announcements</h4>
-            <div class="announcement-subcontainer">
-                <p class="announcement-subtitle">Site Maintenance</p>
-                <p class="announcement-description">placeholder text placeholder text placeholder text </p>
-                <hr>
-            </div>
-            <div class="announcement-subcontainer">
-                <p class="announcement-subtitle">Community Share Day</p>
-                <p class="announcement-description">placeholder text placeholder text placeholder text </p>
-                <hr>
-            </div>
-            <div class="announcement-subcontainer">
-                <p class="announcement-subtitle">Updated Privacy Policy</p>
-                <p class="announcement-description">placeholder text placeholder text placeholder text </p>
-                <hr>
+        <div class="announcements">
+            <h4 class="announcements-title">Announcements</h4>
+            <div class="announcements-container">
+                <div class="announcement-subcontainer">
+                    <p class="announcement-subtitle">Site Maintenance</p>
+                    <p class="announcement-description">placeholder text placeholder text placeholder text </p>
+                    <hr>
+                </div>
+                <div class="announcement-subcontainer">
+                    <p class="announcement-subtitle">Community Share Day</p>
+                    <p class="announcement-description">placeholder text placeholder text placeholder text </p>
+                    <hr>
+                </div>
+                <div class="announcement-subcontainer">
+                    <p class="announcement-subtitle">Updated Privacy Policy</p>
+                    <p class="announcement-description">placeholder text placeholder text placeholder text </p>
+                </div>
             </div>
         </div>
-        <div class="trending-container">
-            <h4>Trending</h4>
-            <div class="trending-subcontainer">
-                <img class="trender-picture" alt="trending member">
-                <p class="trender-name">@tegan</p>
-                <p class="trender-description">World Peace Builder</p>
-            </div>
-            <div class="trending-subcontainer">
-                <img class="trender-picture" alt="trending member">
-                <p class="trender-name">@morgan</p>
-                <p class="trender-description">Super Cool Project</p>
-            </div>
-            <div class="trending-subcontainer">
-                <img class="trender-picture" alt="trending member">
-                <p class="trender-name">@kendall</p>
-                <p class="trender-description">Life Changing App</p>
-            </div>
-            <div class="trending-subcontainer">
-                <img class="trender-picture" alt="trending member">
-                <p class="trender-name">@alex</p>
-                <p class="trender-description">No Traffic Maker</p>
+        <div class="trending">
+            <h4 class="trending-title">Trending</h4>
+            <div class="trending-container">
+                <div class="trending-subcontainer">
+                    <div class="trending-picture-container">
+                        <img class="trender-picture" src="./SVG/account-circle.svg" alt="trending member">
+                    </div>
+                    <p class="trender-name">@somebody</p>
+                    <p class="trender-description">Project 1</p>
+                </div>
+                <div class="trending-subcontainer">
+                    <div class="trending-picture-container">
+                        <img class="trender-picture" src="./SVG/account-circle.svg" alt="trending member">
+                    </div>
+                    <p class="trender-name">@somebody</p>
+                    <p class="trender-description">Project 2</p>
+                </div>
+                <div class="trending-subcontainer">
+                    <div class="trending-picture-container">
+                        <img class="trender-picture" src="./SVG/account-circle.svg" alt="trending member">
+                    </div>
+                    <p class="trender-name">@somebody</p>
+                    <p class="trender-description">Project 3</p>
+                </div>
+                <div class="trending-subcontainer">
+                    <div class="trending-picture-container">
+                        <img class="trender-picture" src="./SVG/account-circle.svg" alt="trending member">
+                    </div>
+                    <p class="trender-name">@somebody</p>
+                    <p class="trender-description">Project 4</p>
+                </div>
             </div>
         </div>
     </div>
