@@ -8,6 +8,7 @@
     margin: 0px;
     padding: 0px;
     gap: 0px;
+    border: solid black 1px; /* deving code, remove later */
 }
 
 body {
@@ -17,10 +18,6 @@ body {
     height: 100%;
     height: 100vh;
     width: 100vw;
-}
-
-div {
-    border: solid black 1px;
 }
 
 .navbar {
@@ -101,6 +98,12 @@ button {
     grid-row: 2 / 7;
     grid-column: 2 / 3;
     background-color: var(--primary-color);
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr;
+}
+
+.project-container {
+    grid-row: 1 / 3;
 }
 
 .navlink-container {
